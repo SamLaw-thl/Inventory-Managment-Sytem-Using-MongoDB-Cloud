@@ -75,3 +75,6 @@ Meawhile, new product Chocolate is added in MongoDB cloud:
 
 # Others
 `example_invenotry.mongodb` file contains commands written by mongoDB syntax. There is no need to modify anything. After connection to MongoDB cloud and clicking the run button, it will create the example products in the MongoDB cloud for you to familiarize youself with the system.
+
+# License
+This project is licensed under the MIT License - feel free to use, modify, and distribute it.
