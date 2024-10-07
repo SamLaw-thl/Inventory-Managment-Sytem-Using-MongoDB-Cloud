@@ -1,0 +1,13 @@
+// Connect to the 'inventoryManagementSystemDB' database
+use('inventoryManagementSystemDB');
+
+
+// Insert multiple documents into the 'product' collection
+db.getCollection('product').insertMany([
+    { name: "Apple", "quantity": 50, "price": 11 },
+    { name: "Banana", "quantity": 100, "price": 12 },
+    { name: "Orange", "quantity": 75, "price": 10 },
+    { name: "Milk", "quantity": 30, "price": 15 },
+    { name: "Bread", "quantity": 20, "price": 8 }
+]);
+
